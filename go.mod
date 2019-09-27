@@ -1,1 +1,1 @@
-module gopubsub
+module github.com/kortatu/gopubsub
