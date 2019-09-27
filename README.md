@@ -27,7 +27,7 @@ func main() {
     
     // each subscription
     go func(subscription gopubsub.Subscription) {
-        msg := subscription.ReceiveChannel()
+        msg := <- subscription.ReceiveChannel()
         fmt.Println("Message received", msg, "subscription id", subscription.ID())
         subscription.Unsubscribe()
     }(subscription1)
