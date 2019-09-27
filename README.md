@@ -14,7 +14,7 @@ package main
 
 import (
     "fmt"
-    "github.com/kortatu/gopubsub/gopubsub"
+    "github.com/kortatu/gopubsub"
 )
 func main() {
 
